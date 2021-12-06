@@ -1,6 +1,4 @@
 import React, {useState} from 'react'
-
-
 function App() {
   const [calc, setCalc]= useState("");
   const [result, setResult] = useState("");
@@ -57,7 +55,7 @@ function App() {
 
         <div className="operators">
           <button onClick={()=> updateCalc('/')}>/</button>
-          <button onClick={()=> updateCalc('*')}>*</button>
+          <button onClick={()=> updateCalc('**')}>*</button>
           <button onClick={()=> updateCalc('+')}>+</button>
           <button onClick={()=> updateCalc('-')}>-</button>
           <button onClick={deletLast}>DEL</button>
